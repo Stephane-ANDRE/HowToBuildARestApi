@@ -1,0 +1,25 @@
+{
+    // TypeScript compiler options
+    "compilerOptions": {
+        // Type of module to generate (can be "commonjs", "amd", "system", or "es2015")
+        "module": "NodeNext",
+
+        // Module resolution method (here, "node" for Node.js)
+        "moduleResolution": "node",
+
+        // Base path for resolving modules (all relative paths will be resolved relative to this path)
+        "baseUrl": "src",
+
+        // Output directory for compiled JavaScript files
+        "outDir": "dist",
+
+        // Instructs TypeScript to generate source map files corresponding to the compiled JavaScript files
+        "sourceMap": true,
+
+        // Enables the strict noImplicitAny flag, generating an error if the type of a variable is implicit and not specified
+        "noImplicitAny": true
+    },
+
+    // List of files or directories to include in the compilation process
+    "include": ["src/**/*"]
+}
