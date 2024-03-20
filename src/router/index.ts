@@ -1,11 +1,13 @@
 import express  from "express";
 
-import authentification from "./authentification";
-
+import authentication from "./authentication";
+import users from "./users"
 // TypeScript of const router = require("express").Router() from JS
 const router = express.Router();
 //TypeScript of module.exports = router from JS
 export default(): express.Router => {
-    authentification(router);
+    authentication(router);
+    users(router);
+    
     return router;
 };

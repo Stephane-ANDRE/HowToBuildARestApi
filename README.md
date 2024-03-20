@@ -9,6 +9,7 @@ Ne trouvant pas encore (mais cela viendra 👊🏼🤞🏽💪🏽) de job ou d'
 - Cela m'occupe
 - Améliore mon bien-être (🙃 😌)
 - Améliore mes compétences
+- Apprendre de nouveaux frameworks
 - Me permet d'être plus à l'aise avec le code
 - D'etoffer mon gitHub et portefolio
 - J'ai parlé du bien - être (🤩)?
@@ -25,7 +26,7 @@ Mais ce n'est pas le genre de la maison 😎!
 - Il y aura surement un peu de personnalisation (en fonction de mes compétences)
 - etc.
 
-## Ce que j'apprends et ce que je révise
+## Ce que j'apprends et ce que je révise dans ce HowToBuild
 Ce que j'apprends:
 - TypeScript
 - MongoDB
@@ -36,8 +37,9 @@ Ce que je révise:
 - Auth
 - JS (je me fais des commentaires)
 - API REST
+- CRUD
 
 ## Pour ce How_to_Build je remercie:
 Code With Antonio
 https://www.youtube.com/watch?v=b8ZUb_Okxro&t=776s
-# How_To_Build_A_Rest_API
+

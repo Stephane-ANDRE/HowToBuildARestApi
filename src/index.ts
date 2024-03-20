@@ -45,8 +45,8 @@ app.use(bodyParser.json());
 const server = http.createServer(app);
 
 //set up a listener
-server.listen(3000, ()=>{
-    console.log("Server running on https://localhost:3000/");
+server.listen(8080, ()=>{
+    console.log("Server running on https://localhost:8080/");
 });
 
 //set up Mongo_URL:

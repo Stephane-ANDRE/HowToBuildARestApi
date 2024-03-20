@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 const UserSchema = new mongoose.Schema({
     username: {type: String, required: true},
     email: {type: String, required:true},
-    authentification: {
+    authentication: {
         password:{type: String, required:true, select:false},
         salt:{type:String, selected:false},
         sessionToken:{type:String, select:false},
@@ -21,7 +21,7 @@ export const getUserByEmail = (email:string) => UserModel.findOne({email});
 
 //method to find One user By his Session
 export const getUserBySessionToken = (sessionToken:string) => UserModel.findOne({
-    "authentification.sessionToken": sessionToken,
+    "authentication.sessionToken": sessionToken,
 });
 
 //method to find One user By Id
@@ -38,7 +38,7 @@ export const createUser = (values:Record<string,any>) => new UserModel(values)
 }; */ 
 
 //method to delete One user
-export const deleteUser = (id:string) => UserModel.findOneAndDelete({_id:id});
+export const deleteUserById = (id:string) => UserModel.findOneAndDelete({_id:id});
 
 //method to update One user
-export const updateUser = (id:string, values:Record<string, any>) =>UserModel.findByIdAndUpdate(id, values)
+export const updateUserById = (id:string, values:Record<string, any>) =>UserModel.findByIdAndUpdate(id, values)
